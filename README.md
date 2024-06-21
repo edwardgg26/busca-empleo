@@ -1,0 +1,3 @@
+## Sobre BuscaEmpleo
+
+BuscaEmpleo es una plataforma de empleo hecha con Laravel, Livewire y MySQL. Los usuarios pueden ver y filtrar las vacantes publicadas, pero para postularse a estas deben crear una cuenta como aspirante y enviar su hoja de vida en la vacante con formato PDF. Por otro lado, los empleadores pueden publicar vacantes y ver las hojas de vida de los candidatos que se postularon a la vacante.

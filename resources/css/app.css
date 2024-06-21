@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* Boton base */
+    .btn{
+        @apply px-4 py-2 border border-transparent 
+               rounded-md font-semibold text-xs uppercase
+               tracking-widest transition 
+               ease-in-out duration-150 disabled:opacity-60
+               focus:outline-none focus:ring-2 focus:ring-offset-2 text-center;
+    }
+
+    /* Boton primario */
+    .btn-primary{
+        @apply bg-primary text-white hover:bg-primary_darken 
+              focus:bg-primary active:bg-primary_darken
+              focus:ring-primary
+              dark:bg-dark_primary dark:text-gray-800 dark:hover:bg-dark_primary_ligthen
+                dark:focus:bg-dark_primary dark:active:bg-dark_primary_ligthen
+                dark:focus:ring-dark_primary dark:focus:ring-offset-transparent;
+    }
+
+    /* Boton primario */
+    .btn-secondary{
+        @apply bg-secondary text-white hover:bg-secondary_darken 
+              focus:bg-secondary active:bg-secondary_darken
+              focus:ring-secondary
+              dark:bg-dark_secondary dark:text-gray-800 dark:hover:bg-dark_secondary_ligthen
+              dark:focus:bg-dark_secondary dark:active:bg-dark_secondary_ligthen 
+              dark:focus:ring-dark_secondary dark:focus:ring-offset-transparent;
+    }
+
+    /* Boton peligro */
+    .btn-danger{
+        @apply bg-danger text-white hover:bg-danger_darken 
+              focus:bg-danger active:bg-danger_darken
+              focus:ring-danger
+              dark:bg-dark_danger dark:text-gray-800 dark:hover:bg-dark_danger_ligthen
+              dark:focus:bg-dark_danger dark:active:bg-dark_danger_ligthen
+              dark:focus:ring-dark_danger dark:focus:ring-offset-transparent;
+    }
+
+
+    /* ... */
+}
